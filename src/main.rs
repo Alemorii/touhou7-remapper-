@@ -37,7 +37,7 @@ fn main() {
                         KeyCode::KEY_U => Some(uinput::event::keyboard::Key::Z),
                         KeyCode::KEY_I => Some(uinput::event::keyboard::Key::X),
                         KeyCode::KEY_ESC => Some(uinput::event::keyboard::Key::Esc),
-                        KeyCode::KEY_LEFTSHIFT => Some(uinput::event::keyboard::Key::Esc),
+                        KeyCode::KEY_LEFTSHIFT => Some(uinput::event::keyboard::Key::LeftShift),
                         KeyCode::KEY_ENTER => Some(uinput::event::keyboard::Key::Enter),
 
 
